@@ -1,4 +1,4 @@
-package api
+package lyra
 
 import (
 	"net/rpc"
