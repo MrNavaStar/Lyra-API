@@ -16,6 +16,6 @@ func (l Lyra) Start(id string) error {
 	return l.client.Call("Lyra.Init", id, nil)
 }
 
-func (l Lyra) AddCommands(cmds []cli.Command) error {
-	return l.client.Call("Lyra.AddCommands", cmds, nil)
+func (l Lyra) AddCommands(cmds *[]cli.Command) error {
+	return l.client.Call("Lyra.AddCommands", &cmds, nil)
 }
