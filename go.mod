@@ -1,4 +1,4 @@
-module lyra-api
+module github.com/mrnavastar/lyra-api
 
 go 1.22
 
